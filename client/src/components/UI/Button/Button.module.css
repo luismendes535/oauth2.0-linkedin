@@ -1,0 +1,56 @@
+.Button {
+  border: 1px solid var(--color-primary);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-family: arial, helvetica, sans-serif;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  display: inline-block;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  background-color: var(--color-primary);
+  /* border: none; */
+  color: var(--color-white);
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.Button:hover {
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-primary-dark);
+}
+
+.Button:disabled {
+  color: var(--color-grey-dark-1);
+  cursor: not-allowed;
+}
+
+.Success {
+  background-color: var(--color-secondary-light);
+  border: 1px solid var(--color-secondary-light);
+}
+.Success:hover {
+  background-color: var(--color-secondary-dark);
+  border: 1px solid var(--color-secondary-dark);
+}
+
+.Linkedin {
+  background-color: var(--color-grey-light-2);
+  border: 1px solid var(--color-grey-light-2);
+  color: var(--color-grey-dark-3);
+  margin-top: 0rem;
+}
+.Linkedin:hover {
+  background-color: var(--color-grey-light-3);
+  border: 1px solid var(--color-grey-light-3);
+  }

@@ -1,0 +1,26 @@
+.Toolbar {
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(189, 165, 189, 1);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(189, 165, 189, 1);
+  box-shadow: 0px 4px 5px 0px rgba(189, 165, 189, 1);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 43px;
+}
+.Logo {
+  padding: 6px;
+}
+.BurgerMenu {
+  padding: 4px;
+}
+.BurgerMenu div {
+  width: 25px;
+  height: 2px;
+  background-color: var(--color-black);
+  margin: 7px 0;
+}

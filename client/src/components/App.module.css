@@ -1,0 +1,36 @@
+:root {
+  /* COLORS */
+  --color-primary: #6b63ff;
+  --color-primary-light: #857ffd;
+  --color-primary-dark: #443aff;
+
+  --color-secondary-light: #40AF6B;
+  --color-secondary-dark: #3ba062;
+
+  --color-tertiary-light: #DBE9FF;
+  --color-tertiary-dark: rgb(182, 194, 212);
+
+  --color-grey-light-1: #EFEFEF;
+  --color-grey-light-2: #eee;
+  --color-grey-light-3: #dbdada;
+
+  --color-grey-dark: #777;
+  --color-grey-dark-2: #999;
+  --color-grey-dark-3: #4A4A4A;
+
+  --color-white: #fff;
+  --color-black: #000;
+
+  /* //FONT */
+  --default-font-size: 1.6rem;
+}
+
+html {
+  background: var(--color-surface);
+  color: var(--color-solid);
+}
+
+/* font: Work Sans
+  color: #6B63FF o roxo
+  cinza claro — #EFEFEF
+  cinza escuro (texto) — #4A4A4A */

@@ -1,0 +1,67 @@
+.SignIn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+    min-height: 70vh;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 12px;
+}
+.SignIn-mobile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+}
+
+.SignIn__Info {
+    width: 50%;
+    padding: 1rem;
+    background-color: var(--color-grey-light-1);
+
+    background-color: #FCFCFC;
+  }
+  
+.SignIn__Info-mobile {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+  .SignIn__Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    padding: 2rem;
+  }
+  
+  .SignIn__Form-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0.75rem;
+  }
+  .SignIn__Form--Image {
+    height: 125px;
+  }
+
+  .SignIn__Form--Image-mobile {
+    display: flex;
+    justify-content: center;
+   }
+   
+  .CreateAccountText{
+    text-align: center;
+  }
+  .SideImageLogo-mobile{
+    width: 30%;
+  }
